@@ -2,7 +2,7 @@ import React from 'react';
 import './styles.scss'
 import Directory from '../../components/Directory/Directory';
 
-const Homepage = () => {
+const HomePage = () => {
 	return (
 		<div className='homepage'>
 			<Directory />
@@ -10,4 +10,4 @@ const Homepage = () => {
 	);						 
 }
 
-export default Homepage;
+export default HomePage;
