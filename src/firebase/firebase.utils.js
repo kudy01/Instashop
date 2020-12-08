@@ -8,8 +8,8 @@ const config = {
     databaseURL: "https://instashop-db.firebaseio.com",
     projectId: "instashop-db",
     storageBucket: "instashop-db.appspot.com",
-    messagingSenderId: "81544622722",
-    appId: "1:81544622722:web:c860cb72d106787b237a9b",
+    messagingSenderId: "81544622722", 
+    appId: "1:81544622722:web:c860cb72d106787b237a9b", 
     measurementId: "G-KYP17R4NFF"
   };
 
