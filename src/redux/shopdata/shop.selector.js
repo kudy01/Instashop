@@ -8,11 +8,11 @@ const COLLECTION_ID_MAP = {
 	mens: 5
 }
 
-const selectShop = state => state.shopdata;
+const selectShop = state => state.shop;
 
 export const selectCollections = createSelector(
   [selectShop],
-  shopdata => shopdata.collections
+  shop => shop.collections
 );
 
 export const selectCollection = collectionUrlParam => 
